@@ -86,17 +86,6 @@ Full-stack web application for user registration, authentication and contact.
 
 ---
 
-### 🖥️ Bash Scripts Collection
-> Personal practice — Sistemas Operativos
-
-Collection of Bash scripts for system automation and task management.
-
-**Tech:** `Bash` `Linux`
-
-🔗 [View Repository](https://github.com/Daniels2405/proyectos_personales)
-
----
-
 ## 📜 Certifications
 
 | Certification | Issuer | Year |
