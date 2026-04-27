@@ -1,0 +1,4 @@
+echo '*.png binary' >> .gitattributes
+echo '*.jpg binary' >> .gitattributes
+echo '*.jpge binary' >> .gitattributes
+echo '*.gif binary' >> .gitattributes
