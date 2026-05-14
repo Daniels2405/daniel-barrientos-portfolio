@@ -37,6 +37,38 @@ I have hands-on experience in technical support (Level 1), Linux/Windows systems
 
 ## 📁 Projects
 
+### 📦 QuickDelivery S.A — Delivery Management & Monitoring System
+> **Course:** Programación Cliente/Servidor Concurrente — Universidad Fidélitas
+
+Distributed client/server system for managing and monitoring deliveries.
+
+- Client/server communication via Java Sockets
+- Multithreading for concurrent request handling
+- Graphical interface with Java Swing
+- Database integration with JDBC
+
+**Tech:** `Java` `Sockets` `Multithreading` `Swing` `JDBC` `Maven`
+
+🔗 [View Repository](https://github.com/Daniels2405/Gesti-n-y-Monitoreo-de-Entregas-QuickDelivery-S.A)
+
+---
+
+### 🏭 Sistema Centro de Distribución — Warehouse Management System
+> **Course:** Programación Cliente/Servidor — Universidad Fidélitas
+
+Client/server desktop application for managing warehouses and boxes in a distribution center.
+
+- Full CRUD for warehouses and boxes via TCP sockets
+- Serialized Java objects (Request/Response) as communication protocol
+- MVC architecture with DAO layer for database access
+- Multithreading with one thread per connected client
+
+**Tech:** `Java` `Sockets` `Swing` `JDBC` `MySQL` `Maven`
+
+🔗 [View Repository](https://github.com/Daniels2405/Sistema_Centro_De_Distribuci-n)
+
+---
+
 ### 🚌 BusNovaTech — Bus Terminal Management System
 > **Course:** SC-304 Estructuras de Datos — Universidad Fidélitas
 
@@ -51,24 +83,6 @@ A bus terminal management system built in Java with custom data structures.
 **Tech:** `Java` `JSON` `Maven` `NetBeans`
 
 🔗 [View Repository](https://github.com/Daniels2405/BusNovaTech-EstructurasDatos)
-
----
-
-### 📦 QuickDelivery S.A — Delivery Management & Monitoring System
-> **Course:** Programación Cliente/Servidor Concurrente — Universidad Fidélitas
-
-Distributed client/server system for managing and monitoring deliveries.
-
-- Client/server communication via Java Sockets
-- Multithreading for concurrent request handling
-- Graphical interface with Java Swing
-- Database integration with JDBC
-
-**Tech:** `Java` `Sockets` `Multithreading` `Swing` `JDBC` `Maven`
-
-![Login](docs/img/login.png)
-
-🔗 [View Repository](https://github.com/Daniels2405/Gesti-n-y-Monitoreo-de-Entregas-QuickDelivery-S.A)
 
 ---
 
