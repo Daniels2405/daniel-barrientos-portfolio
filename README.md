@@ -10,14 +10,12 @@
 
 ## About Me
 
-I'm a 20-year-old IT Technician and Systems Engineering student at Universidad Fidélitas (Costa Rica).
-I have hands-on experience in technical support (Level 1), Linux/Windows systems, networking, cloud services, and software development.
+I'm an IT Technician and Systems Engineering student at Universidad Fidélitas (Costa Rica).
+I have hands-on experience in Level 1 technical support, Linux/Windows systems, networking, cloud services, and software development.
 
-- 📍 Santa Bárbara de Heredia, Costa Rica
 - 🎓 Ingeniería en Sistemas de Computación — Universidad Fidélitas *(In progress)*
-- 🏫 Técnico Medio en Redes y Sistemas Operativos — CTP San Pedro de Barva
+- 🏫 Técnico Medio en Configuración y Soporte a Redes de Comunicación y Sistemas Operativos — CTP San Pedro de Barva
 - 🌐 English: B2 Intermediate
-- 📞 8714-9157
 
 ---
 
@@ -25,29 +23,53 @@ I have hands-on experience in technical support (Level 1), Linux/Windows systems
 
 | Area | Technologies |
 |------|-------------|
-| **Languages** | Java, Python, PHP, Bash, JavaScript |
-| **Web** | HTML, CSS, JavaScript, PHP |
+| **Languages** | Java, Python, Bash, JavaScript, SQL |
+| **Backend** | Spring Boot, Spring Data JPA / Hibernate, JDBC, Java Sockets |
+| **Web & UI** | HTML, CSS, JavaScript, Thymeleaf, Bootstrap, Java Swing |
 | **Databases** | MySQL |
 | **Cloud** | Microsoft Azure, Oracle Cloud Infrastructure |
 | **Networking** | CCNAv7, IP addressing, routers & switches |
 | **OS** | Windows 10/11, Ubuntu Desktop, Ubuntu Server |
-| **Tools** | Git, GitHub, VirtualBox, Maven |
+| **Tools** | Git, GitHub, Maven, VirtualBox |
 
 ---
 
 ## 📁 Projects
 
+### 🏋️ TrackFit — Gym Management Web System
+> **Course:** SC-403 Desarrollo de Aplicaciones Web y Patrones — Universidad Fidélitas
+> **Status:** 🚧 In development (functional, group project of 4 members)
+
+Transactional web application to manage the main operations of a small or medium gym in one place, with three membership levels (Standard, Premium and VIP) that define each client's benefits and booking restrictions.
+
+![TrackFit — Home dashboard](docs/trackfit/index_trackfit.png)
+
+- Management of users, clients, membership plans, payments and activities
+- Class schedules with maximum capacity and reservations with spot control
+- Business rules by plan: valid membership required and booking window based on the client's plan
+- Training routines with exercises, sets and repetitions
+- Layered MVC architecture (Controller, Service, Repository, Domain) with Bean Validation
+- Relational database with 16 tables
+- Collaborative workflow with feature branches and reviewed pull requests
+
+**Tech:** `Java 21` `Spring Boot` `Spring Data JPA` `Thymeleaf` `Bootstrap` `MySQL` `Maven` `Git`
+
+🔗 [View Repository](https://github.com/Daniels2405/TrackFit)
+
+---
+
 ### 📦 QuickDelivery S.A — Delivery Management & Monitoring System
 > **Course:** Programación Cliente/Servidor Concurrente — Universidad Fidélitas
 
-Distributed client/server system for managing and monitoring deliveries.
+Distributed client/server desktop application for managing package deliveries with real-time monitoring.
 
-- Client/server communication via Java Sockets
+- Client/server communication through a custom TCP protocol using Java Sockets
 - Multithreading for concurrent request handling
-- Graphical interface with Java Swing
-- Database integration with JDBC
+- Multilayer architecture with three user roles: Administrator, Dispatcher and Driver
+- Complete audit log of system activity
+- Graphical interface with Java Swing and database integration with JDBC
 
-**Tech:** `Java` `Sockets` `Multithreading` `Swing` `JDBC` `Maven`
+**Tech:** `Java 17` `Sockets` `Multithreading` `Swing` `JDBC` `MySQL 8` `Maven`
 
 🔗 [View Repository](https://github.com/Daniels2405/Gesti-n-y-Monitoreo-de-Entregas-QuickDelivery-S.A)
 
@@ -69,39 +91,6 @@ Client/server desktop application for managing warehouses and boxes in a distrib
 
 ---
 
-### 🚌 BusNovaTech — Bus Terminal Management System
-> **Course:** SC-304 Estructuras de Datos — Universidad Fidélitas
-
-A bus terminal management system built in Java with custom data structures.
-
-- Custom FIFO queues implemented from scratch (no java.util)
-- Ticket management by bus type: Regular, Preferential, Direct
-- JSON persistence (users, queues, config, attended)
-- User authentication system
-- Maven project structure
-
-**Tech:** `Java` `JSON` `Maven` `NetBeans`
-
-🔗 [View Repository](https://github.com/Daniels2405/BusNovaTech-EstructurasDatos)
-
----
-
-### 🔐 ForLive — User Management System
-> **Course:** Fundamentos de Sistemas Operativos — Universidad Fidélitas
-
-Full-stack web application for user registration, authentication and contact.
-
-- User registration and login with secure password hashing
-- PHP sessions management
-- MySQL database integration
-- Responsive frontend with HTML/CSS
-
-**Tech:** `PHP` `MySQL` `HTML` `CSS` `JavaScript`
-
-🔗 [View Repository](https://github.com/Daniels2405/usuarios_forlive_SO)
-
----
-
 ## 📜 Certifications
 
 | Certification | Issuer | Year |
@@ -109,10 +98,12 @@ Full-stack web application for user registration, authentication and contact.
 | Microsoft Azure Fundamentals (AZ-900) | Microsoft | 2025 |
 | Oracle Cloud Infrastructure Foundations | Oracle | 2025 |
 | GitHub Foundations | GitHub | 2025 |
+| Scrum Fundamentals Certified | SCRUMstudy | 2026 |
 | CCNAv7: Introduction to Networks | Cisco Networking Academy | 2023 |
-| IT Essentials: PC Hardware and Software | Cisco Networking Academy | 2022 |
 | Cybersecurity Essentials | Cisco Networking Academy | 2023 |
 | NDG Linux Essentials | Cisco Networking Academy | 2024 |
+| IT Essentials: PC Hardware and Software | Cisco Networking Academy | 2022 |
+| Introduction to IoT | Cisco Networking Academy | 2022 |
 | Programming Essentials in Python | Cisco Networking Academy | 2022 |
 
 ---
@@ -130,6 +121,5 @@ Full-stack web application for user registration, authentication and contact.
 ## 📬 Contact
 
 - **Email:** dn.barrientossalas@gmail.com
-- **Phone:** +506 8714-9157
 - **LinkedIn:** [daniel-barrientos-salas](https://linkedin.com/in/daniel-barrientos-salas-1a7218340/)
 - **GitHub:** [Daniels2405](https://github.com/Daniels2405)
